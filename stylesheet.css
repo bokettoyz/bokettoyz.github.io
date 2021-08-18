@@ -1,0 +1,121 @@
+body {
+    background-color: #D6EDF6;
+    font-family: 'Ubuntu', 'Arial';
+ }
+h1 {
+    text-align: center;
+   }
+#avatar {
+    display: flex;
+    justify-content: center;
+    margin-top: -2em;
+}
+.intro {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
+    margin-top: -0.5em;
+    line-height: 1;
+}
+/* toda esta parte para generar la barra de introducción, tener en cuenta todos los aligns, justify, etc... para poder aplicarlos correctamente */
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #38B6FF;
+    width: 50%;
+    height: 100%;
+    padding: 2.5%;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+#navbar {
+    display: flex;
+    display: inline-block;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    background-color: #38B6FF;
+    color: black;
+    border-radius: 20px;
+}
+.headerclass {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Ubuntu', 'Arial';
+    font-weight: 600;
+    background-color: #38B6FF;
+     }
+.button {
+    text-decoration: none;
+    border: none;
+    margin: auto;
+    background-color: #38B6FF;
+    font-family: 'Ubuntu', 'Arial';
+    font-weight: 800;
+    font-size: large;
+    color: black; 
+}
+.button:hover {
+    background-color: cadetblue;
+    color: white;
+}
+.button:link {
+    color: #38B6FF;
+}    
+.button:visited {
+    color: #38B6FF;
+}
+/* hasta aquí la parte de la navbar - finalmente sin decoración y con el inline-block funcionando -- como el container está configurad con un justify-content: center; no he podido configurar la navbar con un justify-content: space-between (pendiente); */
+.text{
+    text-align: justify;
+    font-family: 'Ubuntu', 'Arial';
+    justify-content: center;
+    font-weight: 800;
+    font-size: medium;
+    line-height: 1.5;
+    width: 100%;
+    background-color: #38B6FF;
+    color: black;
+  
+}
+#SSMM {
+    text-align: justify;
+    text-decoration: underline;
+    font-family: 'Ubuntu', 'Arial';
+    font-weight: 800;
+    font-size: x-large;
+    width: 95%;
+    background-color: #38B6FF;
+    color: black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#navbar2 {
+    display:flex;
+    display: inline-block;
+    font-size: x-large;
+    font-weight: 600;
+    text-align: center;
+    background-color: #38B6FF;
+    color: black;
+    border-radius: 20px;
+}
+footer {
+    display:flex;
+    text-align: center;
+    font-family: 'Ubuntu', 'Arial';
+    font-size: small;
+    font-weight: 800;    
+}
