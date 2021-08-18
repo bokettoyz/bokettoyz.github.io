@@ -1,1 +1,1 @@
-# land-page-project
+#bokettoyz.github.io
