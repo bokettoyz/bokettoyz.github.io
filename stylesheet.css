@@ -119,3 +119,15 @@ footer {
     font-size: small;
     font-weight: 800;    
 }
+.bb {
+    text-decoration: none;
+}
+.bb:link {
+    color: black;
+}
+.bb:visited {
+    color: black;
+}
+.bb:hover {
+    color: teal;
+}
